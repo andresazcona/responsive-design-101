@@ -1,0 +1,290 @@
+/* FILEPATH: /c:/Users/andre/github-classroom/DSAW-2024-1/intro-to-html-and-css-andresazcona/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young:wght@400;700&family=Outfit:wght@400;700&display=swap');
+
+
+
+/* Reset default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color */
+body {
+    background-color: #F3E5D8;
+}
+
+
+.content {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+
+.imagen {
+    width: 600px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.imagen img {
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+
+.main_title {
+    text-align: left;
+    font-size: 40px;
+    color: #444444;
+    margin-bottom: 10px;
+    font-family: 'young serif', sans-serif;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 10px;
+    color: #444444;
+    margin-bottom: 5px;
+    padding-top: 40px;
+    font-family: 'Outfit', 'regular';
+}
+
+.parrafo1 {
+    text-align: left;
+    font-size: 15px;
+    color: #444444;
+    margin-bottom: 30px;
+    font-family: 'Outfit', 'regular';
+}
+
+.parrafo2 {
+    text-align: center;
+    font-size: 15px;
+    color: #444444;
+    margin-bottom: 30px;
+    font-family: 'Outfit', 'regular';
+}
+
+.preparation {
+    width: 600px;
+    height: 160px;
+    padding-top: 15px;
+    background-color: #ffeaf7;
+    border-radius: 25px;
+    position: center;
+}
+
+.preptm {
+    text-align: left;
+    text-align: start;
+    font-size: 30px;
+    color: #a15184;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-top: -10px;
+    font-family: 'Outfit';
+    position: relative;
+    top: -20px;
+}
+
+.List1 {
+    text-align: left;
+    font-size: 10px;
+    color: #444444;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    font-family: 'Outfit';
+    position: relative;
+    top: -15px;
+    font-weight: 400;
+}
+
+.tittle {
+    text-align: left;
+    font-size: 30px;
+    color: #6E4D44;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'young serif', sans-serif;
+    font-weight: bold;
+}
+
+.list2 {
+    text-align: left;
+    font-size: 15px;
+    color: #444444;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    font-family: 'Outfit';
+    font-weight: 100;
+}
+
+.items {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    
+
+}
+
+.list3 {
+    text-align: left;
+    font-size: 15px;
+    color: #444444;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    font-family: 'Outfit';
+    font-weight: 100;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #6E4D44;
+    margin-bottom: 10px;
+    font-family: 'Outfit';
+    font-weight: 100;
+
+  }
+  
+  th {
+    background-color: #ffffff;
+  }
+
+@media screen and (max-width: 320px) and (max-height: 480px) {
+  /*mobile portrait*/
+  .preparation {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .preptm {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+  .List1 {
+    font-size: 8px;
+    padding-left: 20px;
+  }
+
+  .tittle {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+
+  .list2 {
+    font-size: 12px;
+    padding-left: 30px;
+  }
+
+  .items {
+    padding-left: 10px;
+  }
+
+  .list3 {
+    font-size: 12px;
+    padding-left: 30px;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 5px;
+  }
+}
+  
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+  /*Tablet Portrait*/
+  .list2 {
+    font-size: 12px;
+    padding-left: 30px;
+  }
+
+  .items {
+    padding-left: 10px;
+  }
+
+  .list3 {
+    font-size: 12px;
+    padding-left: 30px;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /*Desktop viewport*/
+  .preparation {
+    width: 50%;
+    padding: 20px;
+  }
+
+  .preptm {
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  .List1 {
+    font-size: 16px;
+    padding-left: 40px;
+  }
+
+  .tittle {
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .list2 {
+    font-size: 16px;
+    padding-left: 50px;
+  }
+
+  .items {
+    padding-left: 20px;
+  }
+
+  .list3 {
+    font-size: 16px;
+    padding-left: 50px;
+  }
+
+  table {
+    font-size: 16px;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+}
